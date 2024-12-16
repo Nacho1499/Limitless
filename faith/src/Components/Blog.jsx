@@ -1,5 +1,4 @@
 import React from 'react'
-import blog1 from "../assets/tiwa.webp"
 import blog2 from "../assets/logo2.webp"
 import blog3 from "../assets/jacket.jpg"
 
@@ -10,7 +9,7 @@ const Blog = () => {
         <hr />
         <div className='row g-3 p-3'>
             <div className='col-12 col-lg-4'>
-                <img className='img-fluid mb-3' src={blog1} alt="" />
+                <img className='img-fluid mb-3' src={blog3} alt="" />
                 <a href="https://dailypost.ng/2024/12/15/nigerians-criticise-my-fashion-choices-due-to-my-age-tiwa-savage/" className='text-decoration-none text-dark'><h5>Nigerians criticise my fashion choices due to my age – Tiwa Savage</h5></a>
 
             </div>
