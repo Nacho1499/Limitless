@@ -4,7 +4,7 @@ import blog3 from "../assets/jacket.jpg"
 
 const Blog = () => {
   return (
-    <div className='container mt-4 p-3'>
+    <div className='container mt-4'>
         <h5>Our Blogs</h5>
         <hr />
         <div className='row g-3 p-3'>

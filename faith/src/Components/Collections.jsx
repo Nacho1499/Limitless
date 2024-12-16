@@ -10,11 +10,11 @@ import image8 from "../assets/8.png"
 
 const Collections = () => {
   return (
-    <main className='container p-3 mt-4'>
+    <main className='container p-3 mt-4 p-3'>
         <h5>New Arrival <i class="fa-solid fa-arrow-right"></i></h5>
         <hr />
        <div className='row g-3'>
-        <div className='col-12 col-lg-3 p-4'>
+        <div className='col-12 col-lg-3'>
             <img className='img-fluid' src={images} alt="" />
             <div className='mt-2'>
             <p>Jacket and Hood</p>
@@ -23,7 +23,7 @@ const Collections = () => {
             </div>
 
         </div>
-        <div className='col-12 col-lg-3 p-4'>
+        <div className='col-12 col-lg-3'>
             <img className='img-fluid' src={image1} alt="" />
             <div className='mt-2'>
             <p>bag</p>
@@ -32,7 +32,7 @@ const Collections = () => {
             </div>
 
         </div>
-        <div className='col-12 col-lg-3 p-4'>
+        <div className='col-12 col-lg-3'>
             <img className='img-fluid' src={image2} alt="" />
             <div className='mt-2'>
             <p>Jacket and Hood</p>
@@ -41,7 +41,7 @@ const Collections = () => {
             </div>
 
         </div>
-        <div className='col-12 col-lg-3 p-4'>
+        <div className='col-12 col-lg-3'>
             <img className='img-fluid' src={image3} alt="" />
             <div className='mt-2'>
             <p>Cap</p>
@@ -55,10 +55,10 @@ const Collections = () => {
         
        </div>
       
-       <div className='row g-3 mt-4'>
+       <div className='row g-3 mt-4 p-3'>
        <h5>Limited Offers</h5>
        <hr />
-        <div className='col-12 col-lg-3 p-4'>
+        <div className='col-12 col-lg-3'>
             <img className='img-fluid' src={image4} alt="" />
             <div className='mt-2'>
             <p>mog</p>
@@ -67,7 +67,7 @@ const Collections = () => {
             </div>
 
         </div>
-        <div className='col-12 col-lg-3 p-4'>
+        <div className='col-12 col-lg-3'>
             <img className='img-fluid' src={image5} alt="" />
             <div className='mt-2'>
             <p>book</p>
@@ -76,7 +76,7 @@ const Collections = () => {
             </div>
 
         </div>
-        <div className='col-12 col-lg-3 p-4'>
+        <div className='col-12 col-lg-3'>
             <img className='img-fluid' src={image7} alt="" />
             <div className='mt-2'>
             <p>pen</p>
@@ -85,7 +85,7 @@ const Collections = () => {
             </div>
 
         </div>
-        <div className='col-12 col-lg-3 p-4'>
+        <div className='col-12 col-lg-3'>
             <img className='img-fluid' src={image8} alt="" />
             <div className='mt-2'>
             <p>Head warmer</p>
