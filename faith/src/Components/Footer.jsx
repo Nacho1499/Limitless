@@ -10,13 +10,13 @@ const Footer = () => {
       <div className="container mt-5">
         <div className="row">
           <div className="col-6 col-lg-4">
-            <img className="logo" src={Logo} alt="logo" />
+            <img className="logo mb-2" src={Logo} alt="logo" />
             <p className="text-light">Email: limitless@gmail.com</p>
             <p className="text-light">Tele: +567-675796</p>
           </div>
           <div className="col-6 col-lg-4">
             <ul className="text-light">
-              <h5 className="text-warning">Quick Links</h5>
+              <h6 className="text-warning">Quick Links</h6>
               <hr />
               <li>
                 <Link to="/" className="text-decoration-none text-light">
@@ -42,11 +42,11 @@ const Footer = () => {
           </div>
           <div className="col-6 col-lg-4">
             <div className="text-light">
-              <h5 className="text-warning">Social Links</h5>
+              <h6 className="text-warning">Social Links</h6>
               <hr />
-              <i class="media-logo fa-brands fa-square-whatsapp fa-2x"></i>
-              <i class="media-logo fa-brands fa-square-instagram fa-2x"></i>
-              <i class="media-logo fa-brands fa-twitter fa-2x"></i>
+              <i className="media-logo fa-brands fa-square-whatsapp fa-2x"></i>
+              <i className="media-logo fa-brands fa-square-instagram fa-2x"></i>
+              <i className="media-logo fa-brands fa-twitter fa-2x"></i>
             </div>
           </div>
         </div>

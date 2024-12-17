@@ -13,7 +13,7 @@ const Collections = () => {
   return (
     <main className="container  p-3 mt-4 p-3">
       <h5 className="text-warning">
-        New Arrival <i class="fa-solid fa-arrow-right"></i>
+        New Arrival <i className="fa-solid fa-arrow-right"></i>
       </h5>
       <hr />
       <div className="row g-3">

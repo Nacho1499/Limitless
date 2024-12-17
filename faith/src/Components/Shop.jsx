@@ -17,7 +17,7 @@ const Shop = () => {
      <Scroll/>
       <div className=" shop container-fluid">
         <div className="text-center">
-          <i class="fa-solid fa-shop fa-2x text-light mb-3"></i>
+          <i className="fa-solid fa-shop fa-2x text-light mb-3"></i>
           <h4 className="text-light">Welcome To Store</h4>
           <Link to="/" className="text-decoration-none text-light">
             Home/shop
