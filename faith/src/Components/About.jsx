@@ -2,16 +2,20 @@ import React from "react";
 import logo from "../assets/Logo.webp";
 import Footer from "./Footer";
 import Scroll from "./Scroll";
+import Navbar from "./Navbar"
 
 const About = () => {
   return (
     <>
     <Scroll/>
-    <div className="container-fluid bg-dark p-2">
-      <div className="container text-light ">
+    <Navbar/>
+    <br />
+    <br />
+    <div className="container-fluid bg-dark p-2 mt-3">
+      <div className="container text-light mb-3">
         <h5 className="mt-5">About Possibilities collections</h5>
         <hr />
-        <img className="img-fluid about-logo mb-5 mt-4" src={logo} alt="" />
+        <img className="img-fluid about-logo mb-3 mt-4" src={logo} alt="" />
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur in
           eius velit omnis architecto error quo at dolorem. Mollitia at fugit

@@ -25,6 +25,19 @@ const Shop = () => {
         </div>
       </div>
       <div className="container mt-5 p-4">
+      <div className="dropdown mb-4">
+          <button className=" shadow dropdown-toggle btn btn-dark fixed-top" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Categories
+          </button>
+          <ul className="dropdown-menu shadow">
+            <li><Link to="/hood" className="dropdown-item">Hoods</Link></li>
+            <li><Link to="/shits" className="dropdown-item">T-shits</Link></li>
+            <li><Link to="/bags" className="dropdown-item">bags</Link></li>
+            <li><a className="dropdown-item" href="#">mogs</a></li>
+            <li><a className="dropdown-item" href="#">caps</a></li>
+            <li><a className="dropdown-item" href="#">Books</a></li>
+          </ul>
+        </div>
         <div className="row g-3">
           <div className="col-12 col-lg-3">
             <img className="img-fluid" src={images} alt="" />
