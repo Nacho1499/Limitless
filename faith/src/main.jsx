@@ -7,6 +7,9 @@ import Shop from './Components/Shop.jsx';
 import About from './Components/About.jsx';
 import Hood from './Components/Hood.jsx';
 import Shits from './Components/Shits.jsx';
+import Bags from './Components/Bags.jsx';
+import Caps from './Components/Caps.jsx';
+import Books from './Components/Books.jsx';
 
 
 const router= createBrowserRouter([
@@ -15,6 +18,9 @@ const router= createBrowserRouter([
   {path:"/about", element:<About/>},
   {path:"/hood", element:<Hood/>},
   {path:"/shits", element:<Shits/>},
+  {path:"/bags", element:<Bags/>},
+  {path:"/caps", element:<Caps/>},
+  {path:"/books", element:<Books/>}
 
 ]);
 

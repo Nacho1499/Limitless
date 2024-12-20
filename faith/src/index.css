@@ -23,7 +23,7 @@
 }
 .shop{
     background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75))
-    ,url(assets/13.jpg);
+    ,url(assets/logo2.webp);
     background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -49,6 +49,42 @@
 .hood{
     background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75))
     ,url(assets/jacket.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bags{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75))
+    ,url(assets/19.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.caps{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75))
+    ,url(assets/11.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.books{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75))
+    ,url(assets/7.jpg);
     background-position:center;
     background-repeat: no-repeat;
     background-size: cover;

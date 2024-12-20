@@ -33,9 +33,9 @@ const Shop = () => {
             <li><Link to="/hood" className="dropdown-item">Hoods</Link></li>
             <li><Link to="/shits" className="dropdown-item">T-shits</Link></li>
             <li><Link to="/bags" className="dropdown-item">bags</Link></li>
-            <li><a className="dropdown-item" href="#">mogs</a></li>
-            <li><a className="dropdown-item" href="#">caps</a></li>
-            <li><a className="dropdown-item" href="#">Books</a></li>
+            
+            <li><Link to="/caps" className="dropdown-item">caps / Headwarmers</Link></li>
+            <li><Link to="/books" className="dropdown-item">Books / Pens</Link></li>
           </ul>
         </div>
         <div className="row g-3">
